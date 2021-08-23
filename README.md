@@ -19,9 +19,22 @@ LOGIN: Login to access the different endpoints. Default = "admin"
 
 PASSWORD: Password to access the different endpoints. Default = "password"
 
-
 Any variable without a "Default" is required.
 
+
+Endpoints available:
+
+GET /base
+
+GET /dlc
+
+GET /updates
+
+They each return a list of every files in the corresponding Google Drive folder, in JSON format for Tinfoil.
+
+GET /flushcash
+
+Flush the response cache in case you've added NSPs to your Google Drive before the TTL expires.
 
 A real README with instructions will follow whenever I have the time.
 
