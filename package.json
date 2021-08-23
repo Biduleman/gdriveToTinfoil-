@@ -1,0 +1,19 @@
+{
+  "name": "switchserver",
+  "version": "1.0.0",
+  "description": "Endpoint for fast tinfoil access to gdrive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Biduleman",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "node-cache": "^5.1.2",
+    "string-format": "^2.0.0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}
