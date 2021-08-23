@@ -9,11 +9,11 @@ Parse Google Drive folders to serve links to Tinfoil
 
 **API_KEY:** Google API Key to enable fetching data from Google Drive.
 
-**BASE_FOLDER_ID:**: ID of the Google Drive folder where your BASE NSPs are located.
+**BASE_FOLDER_ID:**: ID of the Google Drive folder where your BASE NSPs are located. The folder need to be public.
 
-**DLC_FOLDER_ID:** ID of the Google Drive folder where your BASE NSPs are located.
+**DLC_FOLDER_ID:** ID of the Google Drive folder where your BASE NSPs are located. The folder need to be public.
 
-**UPDATES_FOLDER_ID:** ID of the Google Drive folder where your BASE NSPs are located.
+**UPDATES_FOLDER_ID:** ID of the Google Drive folder where your BASE NSPs are located. The folder need to be public.
 
 **LOGIN:** Login to access the different endpoints. Default = "admin"
 
