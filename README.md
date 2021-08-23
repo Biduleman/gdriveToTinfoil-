@@ -9,8 +9,8 @@ CACHE_TTL: Cache time in seconds for the responses. Default = 86400 (24 hours)
 
 API_KEY: Google API Key to enable fetching data from Google Drive.
 
-BASE_FOLDER_ID: ID of the Google Drive folder where your BASE NSPs are located
-.
+BASE_FOLDER_ID: ID of the Google Drive folder where your BASE NSPs are located.
+
 DLC_FOLDER_ID: ID of the Google Drive folder where your BASE NSPs are located.
 
 UPDATES_FOLDER_ID: ID of the Google Drive folder where your BASE NSPs are located.
