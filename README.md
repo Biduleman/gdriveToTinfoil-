@@ -39,4 +39,6 @@ Flush the response cache in case you've added NSPs to your Google Drive before t
 ##
 A real README with instructions will follow whenever I have the time.
 
+OAuth2 support is now planned.
+
 First time using Node so I'm not aware of best practices. Feel free to send pull requests or open issues as you see fit.
