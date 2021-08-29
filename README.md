@@ -1,6 +1,6 @@
 # gdriveToTinfoil
 
-Parse Google Drive folders to serve links to Tinfoil. OAuth2 with a service account required.
+Parse Google Drive folders to serve links to Tinfoil. OAuth2 with a service account required. The files in your stash need to be available to the service account used.
 
 # Environment variable
 **PORT:** Server port. Default = 3000
