@@ -2,7 +2,6 @@ const express = require("express");
 const fs = require('fs');
 const readline = require('readline');
 const NodeCache = require("node-cache");
-const axios = require('axios').default;
 const format = require('string-format');
 const basicAuth = require('express-basic-auth')
 const { google } = require('googleapis');
@@ -135,9 +134,9 @@ app.get("/updates", verifyCache, async(req, res, next) => {
     return res.status(200).json(response);
 });
 
-app.get("/flushcash", async(req, res, next) => {
-    cache.flushAll();
-    return res.status(200).json(myCache.getStats());
+app.get("/flushcache", async(req, res, next) => {
+    await cache.flushAll();
+    return res.status(200).json(cache.getStats());
 });
 
 async function getFilesFromFolderID(folderId) {

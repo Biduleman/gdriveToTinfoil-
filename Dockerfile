@@ -9,11 +9,12 @@ WORKDIR /usr/src/app
 COPY package*.json ./
 
 RUN npm install
-# If you are building your code for production
-# RUN npm ci --only=production
+RUN mkdir -p /usr/src/app/conf
 
+VOLUME /usr/src/app/conf
 # Bundle app source
 COPY . .
+
 
 EXPOSE 8080
 CMD [ "node", "index.js" ]
