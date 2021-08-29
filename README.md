@@ -19,7 +19,7 @@ Parse Google Drive folders to serve links to Tinfoil. OAuth2 with a service acco
 
 # SETUP
 
-You need to create a `conf` folder where you will put your `credentials.json` file. Only `service_account` are supported.
+You need to create a `conf` folder where you will put your `credentials.json` file. Only `service_account`s are supported.
 
 # Available Endpoints
 
@@ -35,7 +35,7 @@ Returns a list of every files in the **DLC** Google Drive folder, in JSON format
 
 Returns a list of every files in the **UPDATES** Google Drive folder, in JSON format for Tinfoil.
 
-## GET /flushcash
+## GET /flushcache
 
 Flush the response cache in case you've added NSPs to your Google Drive before the TTL expires.
 ##
