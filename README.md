@@ -19,7 +19,7 @@ Parse Google Drive folders to serve links to Tinfoil. OAuth2 with a service acco
 
 # SETUP
 
-You need to create a `conf` folder where you will put your `credentials.json` file. Only `service_account`s are supported.
+You need to create a `conf` folder where you will put your `credentials.json` file. Only `service_account` are supported.
 
 # Available Endpoints
 
